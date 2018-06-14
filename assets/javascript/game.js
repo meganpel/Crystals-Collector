@@ -40,14 +40,14 @@ $(".crystal").click(function() {
 
     if (total > goal) {
         // you lose
-        $("#status").text("Sorry you lose!!!");
+        $("#status").text("Sorry You Lose!!!");
         losses++;
         newGame();
     }
 
     if (total === goal) {
         // you win
-        $("#status").text("Congratulions you win!!!");
+        $("#status").text("Congratulations You Win!!!");
         wins++;
         newGame();
     }
